@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application</title>
+  <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <legend><h2>Job Application</h2></legend>
+      
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" placeholder="Type here" required><br><br>
+      
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" placeholder="Type here" required><br><br>
+      
+      <label for="phone">Phone:</label><br>
+      <input type="tel" id="phone" placeholder="Type here" required><br><br>
+      
+      <label for="resume">Resume:</label><br>
+      <input type="file" id="resume" required><br><br>
+      
+      <label for="exp">Experience (years):</label><br>
+      <input type="number" id="exp" min="0" max="50"><br><br>
+      
+      <fieldset>
+        <legend>Skills:</legend>
+        <input type="checkbox" id="html"><label for="html">HTML</label><br>
+        <input type="checkbox" id="css"><label for="css">CSS</label><br>
+        <input type="checkbox" id="js"><label for="js">JavaScript</label>
+      </fieldset><br>
+      
+      <label for="edu">Higher Education:</label><br>
+      <select id="edu">
+        <option value="select">Select</option>
+        <option>High School</option>
+        <option>Intermediate</option>
+        <option>Graduation</option>
+      </select><br><br>
+      
+      <fieldset>
+        <legend>Availability:</legend>
+        <input type="radio" name="availability" id="full"><label for="full">Full-time</label><br>
+        <input type="radio" name="availability" id="part"><label for="part">Part-time</label>
+      </fieldset><br>
+      
+      <label for="comments">Additional Comments:</label><br>
+      <textarea id="comments" placeholder="Type here.."></textarea><br><br>
+      
+      <input type="submit" value="Submit Application">
+    </fieldset>
+  </form>
+</body>
+</html>
