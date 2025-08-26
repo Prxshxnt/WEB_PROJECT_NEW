@@ -5,7 +5,7 @@ Developed a responsive web application using HTML, CSS, and JavaScript focused o
 * [Calculator](project/Calculator.html)
 * [E-Commerce](project/E-Commerce.html)
 * [Eventpage](project/Eventpage.html)
-* [Form)](project/Form.html)
+* [Form](project/Form.html)
 * [Resume](project/Resume.html)
 * [Table](project/Table.html)
 * [Todolist](project/Todolist.html)
