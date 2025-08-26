@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 
-/* Main fieldset (form container) */
+
 fieldset {
   background: #fff;
   width: 50%;
@@ -24,14 +24,13 @@ fieldset {
   box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Title */
+
 h2 {
   text-align: center;
   margin-bottom: 20px;
   color: #333;
 }
 
-/* Labels */
 label {
   font-weight: bold;
   display: block;
@@ -39,7 +38,6 @@ label {
   color: #444;
 }
 
-/* Inputs */
 input[type="text"],
 input[type="email"],
 select,
@@ -59,7 +57,6 @@ textarea:focus {
   outline: none;
 }
 
-/* Checkbox fieldset */
 fieldset legend {
   font-weight: bold;
   margin-bottom: 10px;
@@ -69,13 +66,11 @@ fieldset input[type="checkbox"] {
   margin-left: 10px;
 }
 
-/* Textarea */
 textarea {
   height: 80px;
   resize: none;
 }
 
-/* Submit Button */
 input[type="submit"] {
   background: #007bff;
   color: white;
